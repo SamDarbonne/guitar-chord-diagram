@@ -8,7 +8,7 @@
   "bugs": {
     "url": "https://github.com/SamDarbonne/guitar-chord-diagram/issues"
   },
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "takes a chord name and displays a guitar chord diagram for it",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
