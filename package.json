@@ -1,0 +1,51 @@
+{
+  "name": "@sdarbonne/react-guitar-chord",
+  "version": "0.1.0",
+  "description": "takes a chord name and displays a guitar chord diagram for it",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "keywords": [
+    "music",
+    "chords",
+    "notes",
+    "react"
+  ],
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc && rollup -c",
+    "publish": "npm run build && npm publish"
+  },
+  "author": "Sam Darbonne",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.25.8",
+    "@babel/preset-react": "^7.25.7",
+    "@babel/preset-typescript": "^7.25.7",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^28.0.0",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@types/node": "^22.7.5",
+    "@types/react": "^18.3.11",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "rollup": "^4.24.0",
+    "rollup-plugin-postcss": "^4.0.2",
+    "serve": "^14.2.3",
+    "tailwindcss": "^3.4.13",
+    "typescript": "^5.1.6"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
+  }
+}
