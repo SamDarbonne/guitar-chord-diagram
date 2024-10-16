@@ -1,5 +1,13 @@
 {
   "name": "@sdarbonne/react-guitar-chord",
+  "author": "Sam Darbonne",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SamDarbonne/guitar-chord-diagram"
+  },
+  "bugs": {
+    "url": "https://github.com/SamDarbonne/guitar-chord-diagram/issues"
+  },
   "version": "0.1.0",
   "description": "takes a chord name and displays a guitar chord diagram for it",
   "main": "dist/index.js",
@@ -24,7 +32,6 @@
     "build": "tsc && rollup -c",
     "publish": "npm run build && npm publish"
   },
-  "author": "Sam Darbonne",
   "license": "ISC",
   "devDependencies": {
     "@babel/preset-env": "^7.25.8",

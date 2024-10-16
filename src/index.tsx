@@ -175,8 +175,8 @@ function getChordNotes(chordName: string): [string[], string | null] {
 
 const stringOrder = ["E", "A", "D", "G", "B", "E"];
 
-const ChordChart = (props: { chord: string }) => {
-  const [notes, formattedChordName] = getChordNotes(props.chord);
+const ChordCard: React.FC<{ chord: string }> = ({ chord }) => {
+  const [notes, formattedChordName] = getChordNotes(chord);
   const getFirstMatchingNotePosition = (notes: string[], string: string) => {
     const chordSemitones = notes.map((note: string) => noteSemitones[note]);
     for (let i = 0; i < 12; i++) {
@@ -225,4 +225,4 @@ const ChordChart = (props: { chord: string }) => {
     </div>
   );
 };
-export default ChordChart;
+export default ChordCard;
