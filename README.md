@@ -12,7 +12,7 @@ takes in a chord name ("C", "Ddim", "G#maj7b9") and displays a guitar chord diag
 - display fingering
 
 ## Live Demo:
-[Live Demo](https://stackblitz.com/edit/vitejs-vite-zea13s?file=package.json,src%2FApp.tsx,src%2Findex.css)
+[Live Demo](https://stackblitz.com/edit/vitejs-vite-zea13s?file=package.json,src%2FApp.tsx)
 
 usage:
 
