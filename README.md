@@ -1,5 +1,7 @@
 ## @sdarbonne/react-guitar-chord
 
+installation: ```npm i @sdarbonne/react-guitar-chord```
+
 ### What this library does:
 
 takes in a chord name ("C", "Ddim", "G#maj7b9") and displays a guitar chord diagram for it.
